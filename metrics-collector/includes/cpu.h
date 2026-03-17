@@ -20,6 +20,6 @@ typedef struct {
 } cpu_usage_t;
 
 float cpu_percentage(int interval_ms);
-int read_stat(cpu_usage_t *cpu_usage);
+int cpu_read_stat(cpu_usage_t *cpu_usage);
 
 #endif
